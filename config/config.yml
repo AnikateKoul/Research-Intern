@@ -1,0 +1,12 @@
+ai_providers:
+  - provider: HuggingFaceEndpoint
+    api_key: "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"
+    endpoint_url: "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0"
+
+
+models:
+  - type: main
+    engine: huggingface_endpoint
+    model: abc
+    endpoint_url: "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0"
+    repo_id: "abc"
