@@ -17,8 +17,8 @@
 
 Generate a fake dataset with the fees list having at least 3 items.
 
-${gr.xml_prefix_prompt}
+${gr.complete_json_suffix}
 
-${gr.json_suffix_prompt}</prompt>
+</prompt>
 
 </rail>
