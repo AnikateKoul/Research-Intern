@@ -1,6 +1,4 @@
-flask
 google-generativeai
 guardrails-ai
 pillow
 requests
-nemoguardrails

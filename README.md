@@ -1,6 +1,19 @@
 # TCS Research Intern
 
-Below is the basic explanation for the various files in this repo
+## Steps to clone the repo into your local machine
+
+- Move into your desired directory and open terminal there
+- In the terminal, enter the command  : ```git clone https://github.com/AnikateKoul/Research-Intern.git```
+- This will clone the repo into your local device
+- Move into the repo and create a virtual environment using : ```python -m venv env```
+- Install all the dependencies using : ```pip install -r requirements. txt```
+- Also create a file under the name ```config.json``` and your Gemini API key and HuggingFace API token under the names ```apiKey``` and ```hugging_face_token``` respectively.
+- Finally, install the **Toxic Language Check** and **Competitors Check** validators using the following commands : 
+  - ```guardrails hub install hub://guardrails/toxic_language``` and
+  - ```guardrails hub install hub://guardrails/competitor_check``` respectively
+
+
+### Below is the basic explanation for the various files in this repo :
 
 ## base_prompt.ipynb
 In this file, we try to create a simple LLM wrapper using Gemini API without using any guardrails.
